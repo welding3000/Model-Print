@@ -1,0 +1,49 @@
+%script{:src => "https://code.jquery.com/jquery-1.12.4.js"}
+%script{:src => "https://code.jquery.com/ui/1.12.1/jquery-ui.js"}
+
+/ Comienzo
+.happy
+  / :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: 
+  / #### Acordion --- Print --Next --- Example --- Work -- [  Name ---        ]
+  / :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: 
+  %h2#bird.acordion
+    Assign
+  / end-start
+  / ---------------------------
+  / acordionBox
+  .acordionBox
+    / textAcordion
+    .textAcordion
+      %p
+        
+      / :::::::::::::::::::::::::::::::::::::
+      
+      / :::::::::::::::::::::::::::::::::::::
+      / end-textAcordion
+    / end-acordion.Box
+    / ---------------------------
+    / caja
+    #tabs.caja
+      / --navegador --
+      #print-nav
+      /  end-navegador
+      / ---------------------------
+      / output
+      #tabs-1
+        / boxout 
+        .boxout
+
+
+
+
+        / end-box
+      / end-tabs[]
+      / ------------------------------------
+      %p
+        %a#container_model_a{:href => "#home"} Return
+      / --------------------------------------    
+      / end-caja
+      / end-accordionBox
+      / ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: 
+      / ####   End --- Example --- Print --- Context--- [  #######################  ] 
+      / ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: 
